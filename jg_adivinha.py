@@ -18,3 +18,9 @@ while (tent > 0):
 
 print('Pontuação final:')
 print(f'Certo = {certo}\nErrada = {errada}')
+
+if certo > errada:
+    print(f'Parabéns, ganhaste o desafio.')
+else:
+    print('Infelizmente, você perdeu.')
+
