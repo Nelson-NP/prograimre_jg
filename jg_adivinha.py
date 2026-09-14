@@ -1,7 +1,7 @@
 
 from random import randint 
 
-tent = 3
+tent = 5
 certo = errada = 0
 
 while (tent > 0):
@@ -14,7 +14,7 @@ while (tent > 0):
     else:
         print('Errado!')
         errada += 1
-    tent -= 1
+    tent = tent - 1
 
 print('Pontuação final:')
 print(f'Certo = {certo}\nErrada = {errada}')
