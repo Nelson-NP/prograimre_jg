@@ -10,8 +10,10 @@ while (tent > 0):
 
     if num == pc:
         print('Certo, parabéns!')
+        certo += 1
     else:
         print('Errado!')
+        errada += 1
     tent -= 1
 
 print('Pontuação final:')
