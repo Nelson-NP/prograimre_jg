@@ -16,8 +16,8 @@ while (tent > 0):
         errada += 1
     tent = tent - 1
 
-print('Pontuação final:')
-print(f'Certo = {certo}\nErrada = {errada}')
+print('\n\nPontuação final:')
+print(f'Certo = {certo}\nErrada = {errada}\n')
 
 if certo > errada:
     print(f'Parabéns, ganhaste o desafio.')
