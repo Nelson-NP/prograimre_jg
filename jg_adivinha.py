@@ -20,7 +20,7 @@ print('\n\nPontuação final:')
 print(f'Certo = {certo}\nErrada = {errada}\n')
 
 if certo > errada:
-    print(f'Parabéns, ganhaste o desafio.')
+    print(f'Parabéns, ganhaste o desafio!')
 else:
-    print('Infelizmente, você perdeu.')
+    print('Infelizmente, você perdeu!')
 
